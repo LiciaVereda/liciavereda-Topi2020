@@ -6,7 +6,7 @@
 public virtual class EventRepository {
 
     virtual
-    public List <Event> createEvent (List<SObject> SObjects){
+    public List <Event> createEvent (SObject Object){
         List<Event> events = newEvent();
         for(List<Event> events: events){
             this.events.Description = 'Apresentar o portifolio de Produtos para o novo cliente com enfoque em nossa carteira Premium';
