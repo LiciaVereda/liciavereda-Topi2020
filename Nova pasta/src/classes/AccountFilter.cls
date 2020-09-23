@@ -8,5 +8,5 @@ public with sharing class AccountFilter {
 
         }
 
-}
+    }
 }
